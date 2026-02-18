@@ -28,12 +28,9 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
         </div>
 
         {/* Layout */}
-        <div className="grid gap-6 md:grid-cols-[240px_1fr]">
+        <div className="grid gap-6 md:grid-cols-[256px_1fr]">
           {/* Sidebar */}
           <aside className="rounded-2xl border border-white/10 bg-white/[0.04] p-4 backdrop-blur-xl">
-            <div className="mb-3 text-xs font-semibold text-white/60">
-              Navegación
-            </div>
             <SidebarNav />
           </aside>
 
